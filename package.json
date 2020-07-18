@@ -1,0 +1,32 @@
+{
+  "name": "todo-list-react",
+  "version": "1.0.0",
+  "description": "A todo list app",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name todo-list-react"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulohbraga/todo-list-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulohbraga/todo-list-react/issues"
+  },
+  "homepage": "https://github.com/paulohbraga/todo-list-react#readme",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "mongoose": "4.7.0",
+    "node-restful": "0.2.5",
+    "pm2": "2.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}
